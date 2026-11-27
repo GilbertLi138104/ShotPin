@@ -1,5 +1,25 @@
 <div align="center">
-  <img src="https://github.com/GilbertLi138104/ShotPin/raw/refs/heads/main/logo.svg" width="160" alt="ShotPin Logo">
+  <svg width="140" height="140" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <!-- 暖橙色底板 -->
+    <rect width="100" height="100" rx="22" fill="#f7f2ed" />
+    
+    <!-- 橙色图钉外轮廓 -->
+    <path d="M 50 18 C 30 18 18 32 18 48 C 18 62 30 74 50 88 C 70 74 82 62 82 48 C 82 32 70 18 50 18 Z" fill="#f97316" />
+    
+    <!-- 中间的白色光圈中心 -->
+    <circle cx="50" cy="46" r="10" fill="#f7f2ed" />
+    
+    <!-- 光圈叶片缝隙 -->
+    <g stroke="#f7f2ed" stroke-width="2.5" stroke-linecap="round">
+      <line x1="50" y1="36" x2="50" y2="24" />
+      <line x1="58" y1="40" x2="71" y2="34" />
+      <line x1="58" y1="51" x2="71" y2="57" />
+      <line x1="50" y1="56" x2="50" y2="72" />
+      <line x1="42" y1="51" x2="29" y2="57" />
+      <line x1="42" y1="40" x2="29" y2="34" />
+    </g>
+  </svg>
+
   <h1>ShotPin 拍点</h1>
 </div>
 
