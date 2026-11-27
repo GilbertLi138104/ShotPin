@@ -1,4 +1,6 @@
-
+<div align="center">
+  <img src="https://github.com/GilbertLi138104/ShotPin/raw/main/logo.png" width="200" alt="ShotPin Logo">
+</div>
 
 # 📸 ShotPin拍点
 
