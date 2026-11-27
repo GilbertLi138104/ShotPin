@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/GilbertLi138104/ShotPin/raw/main/logo.png" width="200" alt="ShotPin Logo">
+  <img src="https://github.com/GilbertLi138104/ShotPin/raw/main/logo.png" width="350" alt="ShotPin Logo">
 </div>
 
 <div align="center">
