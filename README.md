@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/GilbertLi138104/ShotPin/blob/main/logo.svg)https://github.com/GilbertLi138104/ShotPin/blob/main/logo.svg" width="160" alt="ShotPin Logo">
+  <img src="https://github.com/GilbertLi138104/ShotPin/raw/refs/heads/main/logo.svg" width="160" alt="ShotPin Logo">
   <h1>ShotPin 拍点</h1>
 </div>
 
