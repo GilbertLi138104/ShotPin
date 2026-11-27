@@ -3197,6 +3197,8 @@
     const DIRECT_LEVELS = ["北京市", "上海市", "天津市", "重庆市", "香港特别行政区", "澳门特别行政区"];
 
     let areaData = null;
+    // 必须在 loadAreaData / fillProvinces 之前初始化，避免暂时性死区
+    let shotpinPendingArea = null;
 
     function readAreaCache() {
       try {
@@ -3225,7 +3227,9 @@
         const cached = readAreaCache();
         if (cached) {
           areaData = cached;
-          fillProvinces();
+          // 缓存命中时脚本还没执行完，延迟到当前任务结束后再填充，
+          // 避免访问后面才声明的变量（如 shotpinLastArea）触发暂时性死区。
+          setTimeout(fillProvinces, 0);
           return;
         }
       }
@@ -4163,7 +4167,6 @@
     let shotpinPickerSpots = [];
     let shotpinPickerSelected = [];
     let exploreSpots = [];
-    let shotpinPendingArea = null;
 
     function setCloudState(message, isError) {
       cloudStateEl.textContent = message;
