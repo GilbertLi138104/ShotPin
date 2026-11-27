@@ -51,4 +51,4 @@
 - [ ] 增加用户行为埋点与错误监控，精准定位用户流失环节。
 
 ---
-*Created by [GilbertLi138104](https://github.com/Gilbertli). 本项目完整走过了从需求定义、产品设计、数据建模、前端开发到云端部署的全流程。*
+*Created by [GilbertLi](https://github.com/GilbertLi138104). 本项目完整走过了从需求定义、产品设计、数据建模、前端开发到云端部署的全流程。*
